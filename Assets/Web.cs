@@ -66,6 +66,7 @@ public class Web : MonoBehaviour {
 
         var exitTime = DateTime.Now.ToString ();
         PlayerPrefs.SetString ("ExitTime", exitTime);
+        Application.Quit();
     }
 }
 
